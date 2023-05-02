@@ -40,3 +40,11 @@ p {
     border: 5px solid gray;
     box-shadow: 5px 10px #888888;
   }
+
+  .code {
+    blackground-color: gray;
+    font-family: monospace;
+    font-size: 15px;
+    border: dotted black 2px;
+
+  }
