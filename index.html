@@ -11,18 +11,18 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-          <li>The Head element contains information (Metadata) about the website</li>
-          <li>The Body element contains all the visible content</li>
-          <li>use the Title element in the head to optimize the page for SEO</li>
-          <li>you can use Anchors to link images to the page</li>
-          <li>Semantic elements are always preffered, when possible</li>
-          <li></li>
+          <li>The <span class=code>&lt;head&gt;</span> element contains information (Metadata) about the website</li>
+          <li>The <span class="code">&lt;body&gt;</span> element contains all the visible content</li>
+          <li>use the <span class="code">&lt;title&gt;</span> element in the head to optimize the page for SEO</li>
+          <li>you can use anchors (<span class=code>&lt;a&gt;</span>)  to link images to the page</li>
+          <li>Semantic elements are always preferred, when possible</li>
         </ul>
 
       </section>
@@ -34,7 +34,6 @@
           <li>margin is how much space we want around the outside of an element</li>
           <li>padding is how much space is around the content inside the element</li>
           <li>use DRY: Don't Repeat Yourself!</li>
-
         </ul>
    
       </section>
@@ -43,8 +42,12 @@
         <h2>Git</h2>
         <ul>
           <li>Always use command line!</li>
-          <li>git status: Checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: Creates a new branch and switches to it</li>
+          <li><span class="code">status</span>: Checks what branch we are currently on</li>
+          <li><span class="code">git checkout -b branch-name</span>: Creates a new branch and switches to it</li>
+          <li><span class="code">git add -A</span>: stages your changes</li>
+          <li><span class="code">git commit -m "your message here"</span>: commits to the changes locally with a message describing them</li>
+          <li><span class="code">git pull origin main</span>: makes sure your local branch is up to date before pushing the changes. This pulls the main branch into your feature branch</li>
+          <li><span class="code">git push origin branch-name</span>: Pushes the changes from your local machine to the remote repository</li>
         </ul>
    
       </section>
@@ -52,7 +55,9 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>JS Content goes here</li>
+          <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>Functions are sets of instructions that tell the computer how to perform a certain task</li>
         </ul>
    
       </section>
@@ -61,5 +66,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
