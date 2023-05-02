@@ -42,7 +42,6 @@ p {
   }
 
   .code {
-    blackground-color: gray;
     font-family: monospace;
     font-size: 15px;
     border: dotted black 2px;
